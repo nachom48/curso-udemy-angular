@@ -1,0 +1,8 @@
+con el angular CLI abrimos la consola
+
+
+ng --version
+
+ng new nombreProyecto
+
+Aca se crea el proyecto

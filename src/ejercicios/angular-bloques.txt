@@ -1,0 +1,39 @@
+angular
+ se compone de bloques
+
+ componentes rutas
+ directivas servicios
+ modulos
+
+ los componentes : son un bloque de codigo Html y una contraparte de TypeScript(es una clase)
+, una clase q tiene un decorador
+
+la parte del Html es el html comun
+
+
+Servicios : los servicios es bastante fuerte lo q hacen en angular, los servicios pueden utilizarse
+de tal manera q no haga falta gestionar el estado,
+pero usualmente los servicios de angular son singleton bastantes fuertes q te permite trabajar con la inforamcion centralizada
+Son lugares centralizados de inforamcion
+
+Componenete  es el q tiene Boton html y ese boton llama al Servicio para q guarde la inforamcion
+
+Directivas: de componenetes, de estructuras, de atributos
+
+las directivas de componenetes es un componente pero q tiene un pedaso de codigo html reutilizable,
+
+osea pones la directiva y te mete un codigo html
+
+directiva estructurales, modifican el dom añadiendo o sacando elementos
+
+
+directivas de atributos
+
+
+Rutas
+son diferentes componenetes q podemos mostrar basados en el URL del navegador web o del cliente
+
+Modulos:  agrupa todos los bloques, tenemos un modulo de productos x ejemplo donde esta todo lo del producto , un modulo de clientes donde esta todo lo de los clientes
+modulos de autenticacion, o modulos de proveedores
+
+Ejemplo calendario:  usar el componente hecho, descargamos el modulo y lo incorporamos a otros modulos y tenemos toda la funcionaldiad lista

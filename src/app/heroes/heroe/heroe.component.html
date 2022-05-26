@@ -1,0 +1,33 @@
+
+
+<h1>{{nombre}}</h1>
+
+<dl>
+    <td>Nombre:</td>
+    <dd>{{nombre}}</dd>
+
+    <td>Edad:</td>
+    <dd>{{edad}}</dd>
+
+    <td>Funcion:</td>
+    <dd>{{obtenerNombre()}}</dd>
+
+
+    <td>Capitalizado</td>
+    <dd>{{ nombreCapitalizado}}</dd>
+    <!-- //aca no va con () xq no es un metodo, es un getter ,xq simula q es una propeidad pero es un getter-->
+
+
+<!-- Para verlo capitalziado osea todo en mayuscula .toUpperCase() -->
+
+
+</dl>
+<!-- 
+cambian las propeidades xq estan enlazadas en una sola via, cuando se modifican
+en el componenet me renderiza de nuevo -->
+<button (click)="cambiarNombre()">
+  Cambiar Heroe
+</button>
+<button (click)="cambiarEdad()">
+  Cambiar Edad
+</button>
